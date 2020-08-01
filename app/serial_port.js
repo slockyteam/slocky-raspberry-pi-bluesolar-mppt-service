@@ -38,7 +38,7 @@ module.exports.openSerialPort = function() {
 			if (error) {
 				console.log(error);
 			} else {
-				console.log('Serial port: ' + SharedManager.service.settings.serial_port  + ' opened.');
+				console.log('Serial port: ' + SharedManager.service.settings.serial_port.port  + ' opened.');
 				
 				parser = module.exports.serialPort.pipe(new ByteLength({ length: 1 }));
 				
