@@ -15,7 +15,7 @@
     "console-stamp": "^0.2.6",
     "fs": "0.0.1-security",
     "http": "0.0.0",
-    "merge": "^1.2.1",
+    "merge": "^2.1.1",
     "path": "^0.12.7",
     "request": "^2.83.0",
     "serialport": "^7.1.5",
